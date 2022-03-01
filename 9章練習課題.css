@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head {
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+.main-box {
+  width: 960px;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto 0;
+  display: flex;
+  justify-content: center;
+}
+
+.step-box {
+  width: 300px;
+  height: auto;
+  background-color: #eeeeee;
+  position: relative;
+}
+
+.hidariue {
+  position: absolute;
+  background-color: #ff9a4b;
+  color: white;
+}
+
+.step-title {
+  margin: 15px 10px 5px;
+}
+
+.back-img {
+  background-size: cover;
+  background-position: bottom;
+  width: 280px;
+  height: 150px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.boxtext {
+  margin: 0 10px 10px;
+}
+
+.img-1 {
+  background-image: url(img/flow01.png);
+}
+.img-2 {
+  background-image: url(img/flow02.png);
+}
+.img-3 {
+  background-image: url(img/flow03.png);
+}
+
+.box-1 {
+  margin-right: 30px;
+}
+.box-2 {
+  margin-right: 30px;
+}
+
+.foot {
+  height: 50px;
+  background-color: #aaaaaa;
+}
+
+@media screen and (max-width: 768px) {
+  .main-box {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .step-box {
+    width: 300px;
+    height: auto;
+    background-color: #eeeeee;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .box-2 {
+    margin-top: 10px;
+  }
+  .box-3 {
+    margin-top: 10px;
+  }
+}
