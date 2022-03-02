@@ -76,19 +76,22 @@
     width: 100%;
     flex-direction: column;
   }
-
   .step-box {
-    width: 300px;
+    width: 90%;
     height: auto;
     background-color: #eeeeee;
     position: relative;
     margin-right: auto;
     margin-left: auto;
   }
+  .back-img {
+    width: auto;
+    margin-right: 10px;
+  }
   .box-2 {
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .box-3 {
-    margin-top: 10px;
+    margin-top: 20px;
   }
 }
